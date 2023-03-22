@@ -16,10 +16,11 @@
 - 서블릿이 클라이언트(웹 브라우저)를 다시 거쳐 다른 서블릿(또는 JSP)에게 요청하는 방식
 - Redirect 방식은 클라이언트로부터 새로운 요청이기 때문에 새로운 HttpServletRequest, HttpServletResponse 객체가 생성됨
 #### 3. MVC 프레임워크 만들기
-<img width="497" alt="image" src="https://user-images.githubusercontent.com/106790381/226847384-8f5aeec8-383e-4124-99c2-8e323a0d84d0.png">  
 - DispatcherServlet에서 request를 받음
 - 요청된 경로를 통해서 적절한 handler를 받아옴
 - handler에 맞는 adapter를 찾음
 - adapter내부에서 handler 실행 -> model and view return
 - view resolver에서 view를 선택한 후 rendering
-- view를 response
+- view를 response  
+
+<img width="497" alt="image" src="https://user-images.githubusercontent.com/106790381/226847384-8f5aeec8-383e-4124-99c2-8e323a0d84d0.png">  
