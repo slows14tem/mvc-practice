@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.ReflectionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-22T02:30:05" hostname="KANG" time="0.066">
+  <properties/>
+  <testcase name="load()" classname="org.example.ReflectionTest" time="0.066"/>
+  <system-out><![CDATA[11:30:05.304 [Test worker] DEBUG org.example.ReflectionTest - clazz: [class org.example.model.User]
+11:30:05.309 [Test worker] DEBUG org.example.ReflectionTest - clazz2: [class org.example.model.User]
+11:30:05.309 [Test worker] DEBUG org.example.ReflectionTest - clazz3: [class org.example.model.User]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
